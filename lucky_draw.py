@@ -34,13 +34,13 @@ while True:
             sum += 2
             win_count_with_companion += 1
         else:
-            print("남은 자리가 하나뿐이라 탈락 ㅠㅠ")
+            print(f"😥 남은 자리가 하나뿐이라 탈락 ㅠㅠ {win_candidate}")
             continue
     else:
         sum += 1
         win_count_without_companion += 1
 
-    print("당첨", win_candidate)
+    print(f"🎊 당첨 {win_candidate}")
     wins.append(win_candidate)
 
     if sum == max_win:
