@@ -5,7 +5,7 @@ import collections
 
 
 def load_applies():
-    filename = "응모리스트샘플.xlsx"
+    filename = "응모리스트샘플_공개방송.xlsx"
     # filename = "2019 원투펀치 공개방송 신청.xlsx"
     wb = xlrd.open_workbook(filename)
     sheet = wb.sheet_by_index(0)
