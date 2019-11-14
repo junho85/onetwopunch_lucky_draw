@@ -10,7 +10,7 @@ def load_applies_for_book():
     sheet = wb.sheet_by_index(0)
 
     result = []
-    for i in range(0, sheet.nrows):
+    for i in range(1, sheet.nrows):
         nickname = sheet.row_values(i)[0]
 
         nickname = str(nickname)
